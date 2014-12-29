@@ -1,0 +1,164 @@
+namespace peg {
+
+    grammar peg_grammar2
+    {
+        Comment = BlockComment | LineComment;
+
+        Eof = '\0';
+
+        Identifier = [_a-zA-Z][_a-zA-Z0-9]*;
+
+        NewLine = '\n' | '\r' '\n'?;
+
+        Space = ' ';
+
+        Tab = '\t';
+
+        Whitespace = Comment | NewLine | Space | Tab;
+
+        sp = Whitespace+;
+
+        __ = Whitespace*;
+
+        //----------------------------------------------------------------------
+
+        BlockComment =
+            BlockCommentHead
+            BlockCommentBody
+            BlockCommentTail;
+        
+        BlockCommentHead = "/*";
+        
+        BlockCommentBody = (!BlockCommentTail .)*;
+
+        BlockCommentTail = "*/";
+
+        //----------------------------------------------------------------------
+
+        LineComment = 
+            LineCommentHead
+            LineCommentBody
+            LineCommentTail;
+            
+        LineCommentHead = "//";
+        
+        LineCommentBody = (!LineCommentTail .)*;
+        
+        LineCommentTail = Eof | NewLine;
+
+        //----------------------------------------------------------------------
+
+        File = __ NamespaceBody Eof;
+        
+        //----------------------------------------------------------------------
+
+        Namespace = "namespace" sp NamespaceName __ '{' __ NamespaceBody '}';
+
+        NamespaceName = Identifier;
+        
+        NamespaceBody = ((Namespace | Grammar) __)*;
+        
+        //----------------------------------------------------------------------
+        
+        Grammar = "grammar" sp GrammarName __ '{' __ GrammarBody '}';
+        
+        GrammarName = Identifier;
+        
+        GrammarBody = (Rule __)*;
+
+        //----------------------------------------------------------------------
+        
+        Rule = RuleName __ '=' __ RuleBody __ ';';
+        
+        RuleName = Identifier;
+        
+        RuleBody = Choice | Sequence | Predicate | Repetition | PrimaryExpr;
+
+        //----------------------------------------------------------------------
+        
+        Choice = ChoiceExpr (__ '|' __ ChoiceExpr)+;
+        
+        ChoiceExpr = Sequence | Predicate | Repetition | PrimaryExpr;
+
+        //----------------------------------------------------------------------
+        
+        Sequence = SequenceExpr (__ '|' __ SequenceExpr)+;
+        
+        SequenceExpr = Predicate | Repetition | PrimaryExpr;
+
+        //----------------------------------------------------------------------
+        
+        Predicate = AndPredicate | NotPredicate;
+        
+        AndPredicate = '&' (Repetition | PrimaryExpr);
+        
+        NotPredicate = '!' (Repetition | PrimaryExpr);
+
+        //----------------------------------------------------------------------
+        
+        Repetition = ZeroOrOne | ZeroOrMore | OneOrMore;
+        
+        ZeroOrOne = PrimaryExpr '?';
+        
+        ZeroOrMore = PrimaryExpr '*';
+        
+        OneOrMore = PrimaryExpr '+';
+
+        //----------------------------------------------------------------------
+        
+        PrimaryExpr = Identifier;
+
+        //----------------------------------------------------------------------
+        
+        CharLiteral = "'" CharSpecifier+ "'";
+        
+        CharSpecifier = EscapeSequence | !['\\\n];
+        
+        EscapeSequence
+            = EscapedNul
+            | EscapedQuote
+            | EscapedDoubleQuote
+            | EscapedQuestionMark
+            | EscapedBackslash
+            | EscapedBell
+            | EscapedBackspace
+            | EscapedFormFeed
+            | EscapedLineFeed
+            | EscapedReturn
+            | EscapedTab
+            | EscapedVerticalTab
+            | EscapedHexSequence;
+
+        EscapedNul          = "\\0";
+        EscapedQuote        = "\\'";
+        EscapedDoubleQuote  = "\\\"";
+        EscapedQuestionMark = "\\?";
+        EscapedBackslash    = "\\\\";
+        EscapedBell         = "\\a";
+        EscapedBackspace    = "\\b";
+        EscapedFormFeed     = "\\f";
+        EscapedLineFeed     = "\\n";
+        EscapedReturn       = "\\r";
+        EscapedTab          = "\\t";
+        EscapedVerticalTab  = "\\v";
+        EscapedHexSequence  = "\\x" HexDigit+;
+        
+        HexDigit = [0-9a-fA-F];
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
