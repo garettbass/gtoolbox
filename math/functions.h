@@ -1,10 +1,10 @@
 #pragma once
 #include <cmath>
 #include <iostream>
-#include <zna/source/thirdParty/gtoolbox/env/compiler.h>
-#include <zna/source/thirdParty/gtoolbox/math/forward/float.h>
-#include <zna/source/thirdParty/gtoolbox/math/forward/int.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/traits.h>
+#include <gtoolbox/env/compiler.h>
+#include <gtoolbox/math/forward/float.h>
+#include <gtoolbox/math/forward/int.h>
+#include <gtoolbox/xtd/traits.h>
 
 namespace math {
 

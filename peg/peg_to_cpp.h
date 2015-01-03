@@ -1,7 +1,7 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/peg/ast.h>
-#include <zna/source/thirdParty/gtoolbox/peg/grammars/peg_grammar.h>
-#include <zna/source/thirdParty/gtoolbox/peg/utility.h>
+#include <gtoolbox/peg/ast.h>
+#include <gtoolbox/peg/grammars/peg_grammar.h>
+#include <gtoolbox/peg/utility.h>
 #include <sstream>
 
 namespace peg {
@@ -200,7 +200,7 @@ namespace peg {
         assert(file_entry.rule() == rule::File);
 
         out << "#pragma once\n"
-            << "#include <zna/source/thirdParty/gtoolbox/peg/grammar.h>\n";
+            << "#include <gtoolbox/peg/grammar.h>\n";
 
         for (auto& child : file_entry) switch (child.rule())
         {

@@ -1,5 +1,5 @@
-#include <zna/source/thirdParty/gtoolbox/xtd/text/utf8_codepoint.h>
-#include <zna/source/thirdParty/gtoolbox/peg/utility.h>
+#include <gtoolbox/xtd/text/utf8_codepoint.h>
+#include <gtoolbox/peg/utility.h>
 #include "./json_decoder.h"
 #include "./json_grammar_parser.h"
 #include "./json_fast_parser.h"

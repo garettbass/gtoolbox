@@ -1,6 +1,6 @@
 #if TEST
 #include <catch.h>
-#include <zna/source/thirdParty/gtoolbox/peg/utility.h>
+#include <gtoolbox/peg/utility.h>
 #include "./json_string_grammar.h"
 
 //------------------------------------------------------------------------------

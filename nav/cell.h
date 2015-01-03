@@ -1,6 +1,6 @@
 #pragma once
 #include <cassert>
-#include <zna/source/thirdParty/gtoolbox/nav/tile.h>
+#include <gtoolbox/nav/tile.h>
 
 namespace nav {
 

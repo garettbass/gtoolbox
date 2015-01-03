@@ -1,6 +1,6 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/peg/lexeme.h>
-#include <zna/source/thirdParty/gtoolbox/peg/utility.h>
+#include <gtoolbox/peg/lexeme.h>
+#include <gtoolbox/peg/utility.h>
 
 namespace peg {
 

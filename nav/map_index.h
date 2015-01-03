@@ -1,7 +1,7 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/nav/inline.h>
-#include <zna/source/thirdParty/gtoolbox/nav/cell.h>
-#include <zna/source/thirdParty/gtoolbox/math/functions.h>
+#include <gtoolbox/nav/inline.h>
+#include <gtoolbox/nav/cell.h>
+#include <gtoolbox/math/functions.h>
 
 namespace nav {
 

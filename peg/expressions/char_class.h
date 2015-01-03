@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/xtd/traits.h>
+#include <gtoolbox/xtd/traits.h>
 #include "./choice.h"
 #include "./range.h"
 #include "../inline.h"

@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/peg/grammar.h>
+#include <gtoolbox/peg/grammar.h>
 
 namespace json {
 

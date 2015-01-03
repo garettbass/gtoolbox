@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/math/forward/float.h>
+#include <gtoolbox/math/forward/float.h>
 
 namespace math {
 

@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/xtd/text/utf32_codepoint.h>
+#include <gtoolbox/xtd/text/utf32_codepoint.h>
 
 namespace xtd {
 

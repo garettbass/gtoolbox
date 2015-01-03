@@ -1,6 +1,6 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/xtd/int.h>
-#include <zna/source/thirdParty/gtoolbox/env/compiler.h>
+#include <gtoolbox/xtd/int.h>
+#include <gtoolbox/env/compiler.h>
 
 namespace peg {
 

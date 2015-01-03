@@ -1,6 +1,6 @@
 #include <cassert>
-#include <zna/source/thirdParty/gtoolbox/math/functions.h>
-#include <zna/source/thirdParty/gtoolbox/test/test.h>
+#include <gtoolbox/math/functions.h>
+#include <gtoolbox/test/test.h>
 
 namespace math {
 

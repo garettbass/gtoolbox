@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/pre/apply.h>
+#include <gtoolbox/pre/apply.h>
 #include "../inline.h"
 
 namespace peg {

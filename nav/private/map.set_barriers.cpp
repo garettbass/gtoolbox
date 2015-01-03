@@ -1,5 +1,5 @@
-#include <zna/source/thirdParty/gtoolbox/nav/map.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/map.set_barriers.h>
+#include <gtoolbox/nav/map.h>
+#include <gtoolbox/nav/private/map.set_barriers.h>
 
 namespace nav {
 

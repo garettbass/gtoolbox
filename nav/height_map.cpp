@@ -1,4 +1,4 @@
-#include <zna/source/thirdParty/gtoolbox/nav/height_map.h>
+#include <gtoolbox/nav/height_map.h>
 
 namespace nav {
 

@@ -1,6 +1,6 @@
 #pragma once
 #include <algorithm>
-#include <zna/source/thirdParty/gtoolbox/nav/map_index.h>
+#include <gtoolbox/nav/map_index.h>
 
 namespace nav {
 

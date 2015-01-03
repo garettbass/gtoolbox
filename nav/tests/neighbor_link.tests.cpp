@@ -1,6 +1,6 @@
 #include <cassert>
-#include <zna/source/thirdParty/gtoolbox/nav/neighbor_link.h>
-#include <zna/source/thirdParty/gtoolbox/test/test.h>
+#include <gtoolbox/nav/neighbor_link.h>
+#include <gtoolbox/test/test.h>
 
 namespace nav {
     void neighbor_link_test(neighbor_link& n, direction_index d);

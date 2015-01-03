@@ -1,4 +1,4 @@
-#include <zna/source/thirdParty/gtoolbox/xtd/utility/lookup_table.h>
+#include <gtoolbox/xtd/utility/lookup_table.h>
 #include "./json_encoder.h"
 #include <iomanip>
 #include <iostream>

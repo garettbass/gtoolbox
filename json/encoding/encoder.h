@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/xtd/constructors/interface.h>
+#include <gtoolbox/xtd/constructors/interface.h>
 #include "../types.h"
 
 namespace json {

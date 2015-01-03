@@ -4,7 +4,7 @@
 
 #if PEG_FORCEINLINE
 
-    #include <zna/source/thirdParty/gtoolbox/env/compiler.h>
+    #include <gtoolbox/env/compiler.h>
 
     #define peg_inline env_forceinline
 

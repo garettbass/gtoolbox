@@ -1,6 +1,6 @@
-#include <zna/source/thirdParty/gtoolbox/math/functions.h>
-#include <zna/source/thirdParty/gtoolbox/nav/map.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/map.set_costs.h>
+#include <gtoolbox/math/functions.h>
+#include <gtoolbox/nav/map.h>
+#include <gtoolbox/nav/private/map.set_costs.h>
 
 namespace nav {
 

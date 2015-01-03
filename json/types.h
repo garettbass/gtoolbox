@@ -2,8 +2,8 @@
 #include <map>
 #include <string>
 #include <vector>
-#include <zna/source/thirdParty/gtoolbox/xtd/substring.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/utility/type_list.h>
+#include <gtoolbox/xtd/substring.h>
+#include <gtoolbox/xtd/utility/type_list.h>
 
 namespace json {
 

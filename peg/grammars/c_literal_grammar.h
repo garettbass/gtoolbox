@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/peg/grammars/ascii_grammar.h>
+#include <gtoolbox/peg/grammars/ascii_grammar.h>
 
 namespace peg {
 
