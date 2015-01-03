@@ -1,7 +1,7 @@
 #if TEST
 #include <catch.h>
-#include <zna/source/thirdParty/gtoolbox/peg/utility.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/filesystem/path.h>
+#include <gtoolbox/peg/utility.h>
+#include <gtoolbox/xtd/filesystem/path.h>
 #include "./json_grammar.h"
 
 TEST_CASE("json::json_grammar tests", "[cfg][JSON]")

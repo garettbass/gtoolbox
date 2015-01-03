@@ -1,6 +1,6 @@
-#include <zna/source/thirdParty/gtoolbox/nav/map.h>
-#include <zna/source/thirdParty/gtoolbox/nav/point.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/navigator.find_nearest_tile_in_island.h>
+#include <gtoolbox/nav/map.h>
+#include <gtoolbox/nav/point.h>
+#include <gtoolbox/nav/private/navigator.find_nearest_tile_in_island.h>
 
 namespace nav {
 

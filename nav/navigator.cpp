@@ -1,8 +1,8 @@
-#include <zna/source/thirdParty/gtoolbox/nav/navigator.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/navigator.find_nearest_tile_in_island.h>
-//#include <zna/source/thirdParty/gtoolbox/nav/private/navigator.push_heap.h>
-//#include <zna/source/thirdParty/gtoolbox/nav/private/navigator.pop_heap.h>
-#include <zna/source/thirdParty/gtoolbox/nav/neighbor_set.h>
+#include <gtoolbox/nav/navigator.h>
+#include <gtoolbox/nav/private/navigator.find_nearest_tile_in_island.h>
+//#include <gtoolbox/nav/private/navigator.push_heap.h>
+//#include <gtoolbox/nav/private/navigator.pop_heap.h>
+#include <gtoolbox/nav/neighbor_set.h>
 
 namespace nav {
 

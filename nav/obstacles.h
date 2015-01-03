@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/nav/inline.h>
+#include <gtoolbox/nav/inline.h>
 
 namespace nav {
 

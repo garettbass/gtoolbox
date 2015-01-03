@@ -1,17 +1,17 @@
 #if TEST
 #include <catch.h>
 #include <fstream>
-#include <zna/source/thirdParty/gtoolbox/xtd/echo.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/filesystem/path.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/utility/scope_timer.h>
+#include <gtoolbox/xtd/echo.h>
+#include <gtoolbox/xtd/filesystem/path.h>
+#include <gtoolbox/xtd/utility/scope_timer.h>
 
 // json
-#include <zna/source/thirdParty/gtoolbox/json/value.h>
-#include <zna/source/thirdParty/gtoolbox/json/encoding/debug/debug_encoder.h>
-#include <zna/source/thirdParty/gtoolbox/json/encoding/json/json_decoder.h>
-#include <zna/source/thirdParty/gtoolbox/json/encoding/json/json_encoder.h>
-#include <zna/source/thirdParty/gtoolbox/json/encoding/value/value_decoder.h>
-#include <zna/source/thirdParty/gtoolbox/json/encoding/value/value_encoder.h>
+#include <gtoolbox/json/value.h>
+#include <gtoolbox/json/encoding/debug/debug_encoder.h>
+#include <gtoolbox/json/encoding/json/json_decoder.h>
+#include <gtoolbox/json/encoding/json/json_encoder.h>
+#include <gtoolbox/json/encoding/value/value_decoder.h>
+#include <gtoolbox/json/encoding/value/value_encoder.h>
 
 struct file
 {

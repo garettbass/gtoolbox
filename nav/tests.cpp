@@ -4,11 +4,11 @@
 #include <sstream>
 #include <thread>
 #include <vector>
-#include <zna/source/thirdParty/gtoolbox/env/os.h>
-#include <zna/source/thirdParty/gtoolbox/nav/navigator.h>
-#include <zna/source/thirdParty/gtoolbox/nav/tests.h>
-#include <zna/source/thirdParty/gtoolbox/test/test.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/utility/scope_timer.h>
+#include <gtoolbox/env/os.h>
+#include <gtoolbox/nav/navigator.h>
+#include <gtoolbox/nav/tests.h>
+#include <gtoolbox/test/test.h>
+#include <gtoolbox/xtd/utility/scope_timer.h>
 
 namespace nav {
 

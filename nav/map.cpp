@@ -1,13 +1,13 @@
 #include <algorithm>
 #include <memory>
-#include <zna/source/thirdParty/gtoolbox/math/constants.h>
-#include <zna/source/thirdParty/gtoolbox/nav/map.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/map.set_heights_and_obstacles.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/map.set_islands.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/map.set_neighbors.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/map.set_barriers.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/map.set_costs.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/utility/scope_timer.h>
+#include <gtoolbox/math/constants.h>
+#include <gtoolbox/nav/map.h>
+#include <gtoolbox/nav/private/map.set_heights_and_obstacles.h>
+#include <gtoolbox/nav/private/map.set_islands.h>
+#include <gtoolbox/nav/private/map.set_neighbors.h>
+#include <gtoolbox/nav/private/map.set_barriers.h>
+#include <gtoolbox/nav/private/map.set_costs.h>
+#include <gtoolbox/xtd/utility/scope_timer.h>
 
 namespace nav {
 

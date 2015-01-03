@@ -1,8 +1,8 @@
 #pragma once
 #include <vector>
-#include <zna/source/thirdParty/gtoolbox/nav/distance.h>
-#include <zna/source/thirdParty/gtoolbox/nav/map.h>
-#include <zna/source/thirdParty/gtoolbox/nav/point.h>
+#include <gtoolbox/nav/distance.h>
+#include <gtoolbox/nav/map.h>
+#include <gtoolbox/nav/point.h>
 
 namespace nav {
 

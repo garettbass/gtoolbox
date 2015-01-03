@@ -1,7 +1,7 @@
 #pragma once
 #include <cassert>
-#include <zna/source/thirdParty/gtoolbox/nav/forward/types.h>
-#include <zna/source/thirdParty/gtoolbox/nav/inline.h>
+#include <gtoolbox/nav/forward/types.h>
+#include <gtoolbox/nav/inline.h>
 
 namespace nav {
 

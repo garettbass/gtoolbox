@@ -1,5 +1,5 @@
-#include <zna/source/thirdParty/gtoolbox/nav/map.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/map.set_islands.h>
+#include <gtoolbox/nav/map.h>
+#include <gtoolbox/nav/private/map.set_islands.h>
 
 namespace nav {
 

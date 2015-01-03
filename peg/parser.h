@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include <zna/source/thirdParty/gtoolbox/xtd/substring.h>
+#include <gtoolbox/xtd/substring.h>
 
 namespace peg {
 

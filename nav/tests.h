@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/nav/forward/types.h>
+#include <gtoolbox/nav/forward/types.h>
 
 namespace nav {
 

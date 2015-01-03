@@ -1,5 +1,5 @@
-#include <zna/source/thirdParty/gtoolbox/nav/map.h>
-#include <zna/source/thirdParty/gtoolbox/test/test.h>
+#include <gtoolbox/nav/map.h>
+#include <gtoolbox/test/test.h>
 
 namespace nav {
 

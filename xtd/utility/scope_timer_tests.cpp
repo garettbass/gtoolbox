@@ -1,7 +1,7 @@
 #if TEST
 #include <vector>
 #include <catch.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/echo.h>
+#include <gtoolbox/xtd/echo.h>
 #include "scope_timer.h"
 
 TEST_CASE("scope_timer tests", "[scope_timer]")

@@ -1,7 +1,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
-#include <zna/source/thirdParty/gtoolbox/test/test.h>
+#include <gtoolbox/test/test.h>
 
 #if env_os_ios or env_os_osx
     #include <unistd.h>

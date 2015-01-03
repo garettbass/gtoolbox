@@ -1,7 +1,7 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/peg/grammars/c_comment_grammar.h>
-#include <zna/source/thirdParty/gtoolbox/peg/grammars/c_identifier_grammar.h>
-#include <zna/source/thirdParty/gtoolbox/peg/grammars/c_literal_grammar.h>
+#include <gtoolbox/peg/grammars/c_comment_grammar.h>
+#include <gtoolbox/peg/grammars/c_identifier_grammar.h>
+#include <gtoolbox/peg/grammars/c_literal_grammar.h>
 
 namespace peg {
 

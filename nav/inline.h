@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/env/compiler.h>
+#include <gtoolbox/env/compiler.h>
 
 #define NAV_FORCEINLINE 1
 

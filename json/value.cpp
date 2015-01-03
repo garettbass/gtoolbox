@@ -1,4 +1,4 @@
-#include <zna/source/thirdParty/gtoolbox/env/compiler.h>
+#include <gtoolbox/env/compiler.h>
 #include "value.h"
 #include "./encoding/json/json_decoder.h"
 #include "./encoding/json/json_encoder.h"

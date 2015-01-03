@@ -1,6 +1,6 @@
-#include <zna/source/thirdParty/gtoolbox/nav/map.h>
-#include <zna/source/thirdParty/gtoolbox/nav/point.h>
-#include <zna/source/thirdParty/gtoolbox/nav/private/map.set_heights_and_obstacles.h>
+#include <gtoolbox/nav/map.h>
+#include <gtoolbox/nav/point.h>
+#include <gtoolbox/nav/private/map.set_heights_and_obstacles.h>
 
 namespace nav {
 

@@ -1,5 +1,5 @@
-#include <zna/source/thirdParty/gtoolbox/nav/height_map.h>
-#include <zna/source/thirdParty/gtoolbox/nav/point.h>
+#include <gtoolbox/nav/height_map.h>
+#include <gtoolbox/nav/point.h>
 
 namespace nav {
 

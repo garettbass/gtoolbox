@@ -1,6 +1,6 @@
 #pragma once
 #include <type_traits>
-#include <zna/source/thirdParty/gtoolbox/env/compiler.h>
+#include <gtoolbox/env/compiler.h>
 #include "./lexeme.h"
 #include "./expressions/and_predicate.h"
 #include "./expressions/byte.h"

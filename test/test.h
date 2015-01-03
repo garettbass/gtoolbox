@@ -1,7 +1,7 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/env/cpu.h>
-#include <zna/source/thirdParty/gtoolbox/env/os.h>
-#include <zna/source/thirdParty/gtoolbox/test/inline.h>
+#include <gtoolbox/env/cpu.h>
+#include <gtoolbox/env/os.h>
+#include <gtoolbox/test/inline.h>
 
 //------------------------------------------------------------------------------
 // test_breakpoint() - a platform-specific breakpoint statement

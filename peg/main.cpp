@@ -1,11 +1,11 @@
 #include <cstdio>
-#include <zna/source/thirdParty/gtoolbox/peg/main.h>
-#include <zna/source/thirdParty/gtoolbox/peg/grammars/peg_grammar2.h>
-#include <zna/source/thirdParty/gtoolbox/peg/peg_to_cpp.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/echo.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/filesystem/path.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/traits.h>
-#include <zna/source/thirdParty/gtoolbox/xtd/utility/scope_timer.h>
+#include <gtoolbox/peg/main.h>
+#include <gtoolbox/peg/grammars/peg_grammar2.h>
+#include <gtoolbox/peg/peg_to_cpp.h>
+#include <gtoolbox/xtd/echo.h>
+#include <gtoolbox/xtd/filesystem/path.h>
+#include <gtoolbox/xtd/traits.h>
+#include <gtoolbox/xtd/utility/scope_timer.h>
 
 namespace peg {
 

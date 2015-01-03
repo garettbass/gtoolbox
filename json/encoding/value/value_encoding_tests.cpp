@@ -2,7 +2,7 @@
 #define CATCH_CONFIG_SFINAE
 #include <catch.h>
 #include <sstream>
-#include <zna/source/thirdParty/gtoolbox/xtd/echo.h>
+#include <gtoolbox/xtd/echo.h>
 #include "../debug/debug_encoder.h"
 #include "../json/json_decoder.h"
 #include "../json/json_encoder.h"

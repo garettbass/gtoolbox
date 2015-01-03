@@ -1,5 +1,5 @@
 #pragma once
-#include <zna/source/thirdParty/gtoolbox/xtd/text/utf8_codepoint.h>
+#include <gtoolbox/xtd/text/utf8_codepoint.h>
 #include "../inline.h"
 
 namespace peg {
